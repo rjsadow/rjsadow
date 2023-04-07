@@ -1,0 +1,70 @@
+# Base information
+baseURL = "https://rjsadow.com"
+languageCode = "en-gb"
+title = "Ricky Sadowski"
+googleAnalytics = ""
+
+theme="hugo-developer-portfolio"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+
+
+# navigation
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight=1
+
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight=2
+
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight=4
+
+
+[params]
+home = "Home"
+# Meta data
+description = "The website of Ricky Sadowski, Platform Engineer and open source enthusiest."
+author = "Ricky Sadowski"
+
+
+  [params.contact]
+  enable = true
+  formAction = "" #contact form works with formspree.io
+
+  [params.footer]
+  email = "richard.j.sadowski@gmail.com"
+  address = "Gainesville, VA"
+  googlemaps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49754.96026627523!2d-77.65438406109405!3d38.793854672135346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b666229f11b9d9%3A0x4c416d4b32ca2c57!2sGainesville%2C%20VA!5e0!3m2!1sen!2sus!4v1680614345219!5m2!1sen!2sus"
+  copyright = "{year} {author}"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "rainbow_dash"
+    tabWidth = 4
+

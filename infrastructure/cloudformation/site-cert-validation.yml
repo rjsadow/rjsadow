@@ -1,0 +1,23 @@
+---
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+  RjsadowSiteValidationRecord01:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneName: rjsadow.com.
+      Name: "_d5dc7fe712106e66e4099641d5442ed0.rjsadow.com."
+      Type: CNAME
+      TTL: '300'
+      ResourceRecords:
+        - _0402b9c51d5abe8e7e23ad029d68b7d2.sggfvksfyf.acm-validations.aws.
+      Comment: "DNS validation record for RjsadowSiteCert"
+  RjsadowSiteValidationRecord02:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneName: rjsadow.com.
+      Name: "_8a473ad181aba142327c35a28eb2c991.www.rjsadow.com."
+      Type: CNAME
+      TTL: '300'
+      ResourceRecords:
+        - _8239590fd08b10cde3e906f738e241f0.sggfvksfyf.acm-validations.aws.
+      Comment: "DNS validation record for RjsadowSiteCert"

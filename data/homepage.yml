@@ -1,0 +1,164 @@
+---
+banner:
+  title: Hi! I’m Ricky
+social:
+  twitter: ""
+  linkedin: richardsadowski
+  github: rjsadow
+  gitlab: ""
+  facebook: ""
+  instagram: ""
+  gmail: richard.j.sadowski
+about:
+  enable: true
+  content: Building the future of tech through platform engineering and open source 
+  button:
+    btnText: Find out more
+    URL: "/about"
+skill:
+  enable: true
+  item:
+    - title: Kubernetes
+      logo: https://cdn.svgporn.com/logos/kubernetes.svg?response-content-disposition=attachment%3Bfilename%3Dkubernetes.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: Go
+      logo: https://cdn.svgporn.com/logos/go.svg?response-content-disposition=attachment%3Bfilename%3Dgo.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: Vue3
+      logo: https://cdn.svgporn.com/logos/vue.svg?response-content-disposition=attachment%3Bfilename%3Dvue.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: AWS
+      logo: https://cdn.svgporn.com/logos/aws.svg?response-content-disposition=attachment%3Bfilename%3Daws.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: Hashicorp Vault
+      logo: https://cdn.svgporn.com/logos/vault-icon.svg?response-content-disposition=attachment%3Bfilename%3Dvault-icon.svg
+      description: Details coming soon, contact me if you want to know more
+experience:
+  enable: true
+  item:
+    - logo: https://res.cloudinary.com/dtpjd3pqt/image/upload/r_30/v1680374260/AWS-logo-2_1_tgcc6v.jpg
+      title: SysDevEng
+      company: AWS
+      duration: October 2022
+      description: |
+        As a System Development Engineer at Amazon Web Services, I provide design review, system assessment, and corrective actions for 
+        internal service teams. I then lead projects to help teams meet their operational objectives. My responsibilities also include 
+        designing, building, and maintaining complex distributed systems that power the AWS infrastructure. To accomplish this, I apply a 
+        strong understanding of software development best practices, including software design patterns, data structures, and algorithms.
+        <br />
+        <br />
+        I work closely with other engineers, product managers, and stakeholders to ensure that AWS services are reliable, scalable, and 
+        performant. This requires collaboration and effective communication skills to identify, troubleshoot, and resolve complex technical 
+        issues in a timely manner. In addition, I keep up to date with the latest technologies and industry trends to continuously improve 
+        our systems and processes.
+        <br />
+        <br />
+        Overall, my work as a System Development Engineer at Amazon Web Services involves ensuring the reliability and scalability of critical 
+        systems that power the cloud infrastructure.
+    - logo: https://res.cloudinary.com/dtpjd3pqt/image/upload/v1680476421/zeta-associates-squarelogo-1536056437732_sfv4in.png
+      title: DevOps Engineer 
+      company: Zeta Associates
+      duration: September 2017 - October 2022
+      description: |
+        As a DevOps Engineer at Zeta Associates, I had the privilege of overseeing a wide range of responsibilities that kept 
+        me constantly challenged and engaged. My primary focus was on architecting, building, and maintaining large scale cloud 
+        agnostic infrastructure that enabled our team to deploy mission critical systems quickly, reliably, and repeatably to production.
+        <br />
+        <br />
+        One of my most rewarding experiences was leading the full stack development effort on a unique webtop application, from MVP 
+        to its accepted transition to ops. I was the single source developer for this project, which was written in Golang and Vue3 Typescript.
+        <br />
+        <br />
+        In addition to these core responsibilities, I also deployed, developed, and maintained a variety of CNCF projects and cloud native 
+        platforms, including Kubernetes, Hashicorp Vault, Gitlab, and Gitlab Runners. I served as the lead POC for a diverse range of devops 
+        applications, processes, and pipelines, and was always eager to promote and advocate for an excellent developer experience across all 
+        of our platforms and services.
+        <br />
+        <br />
+        Overall, my time at Zeta Associates was characterized by a constant drive to innovate and improve, whether it was by streamlining our 
+        infrastructure or enhancing the capabilities of our devops applications. It was a privilege to work alongside such a talented and dedicated 
+        team, and I'm excited to bring these skills and experiences to my next opportunity.
+    - logo: https://res.cloudinary.com/dtpjd3pqt/image/upload/v1680476634/download_ijq7t2.png
+      title: Systems Engineer
+      company: Northrop Grumman
+      duration: August 2011 - September 2017
+      description: |
+        During my time at Northrop Grumman, I was able to develop and hone my skills in a variety of technical roles, including System Administrator, 
+        Ground System Engineer, and Hardware Engineer.
+        <br />
+        <br />
+        As a System Administrator, I provided critical Tier-2 support for detecting, isolating, and resolving ground segment problems. I was often the 
+        first responder for all site issues, requiring a broad level of knowledge of high-priority systems across a multi-location enterprise. In 
+        addition to resolving discrepancy reports, ranging from system change requests to site-wide outages, I also provided necessary mentorship, 
+        guidance, and training to entry-level engineering crew.
+        <br />
+        <br />
+        In my role as a Ground System Engineer, I provided 24/7 real-time operations and test support to Air Force crews and contractor test teams. 
+        This included identifying system problems, troubleshooting, and correcting both software and hardware failures. I also participated in software 
+        version testing and evaluation and provided feedback to the development and test community.
+        <br />
+        <br />
+        Finally, as a Hardware Engineer, I configured and managed Linux/UNIX systems on a variety of platforms, including IRIX64, Solaris v8-10, Red Hat 
+        EL 5.x-6.x. I gained hands-on experience with Veritas Cluster Servers and was well-versed in networking concepts like DHCP, TCP/IP, IP addressing, 
+        networking technologies, and WLAN. I was also experienced in diagnosing, troubleshooting various networking, hardware, and Linux/UNIX server services
+        issues and performing preventive maintenance.
+        <br />
+        <br />
+        Overall, my time at Northrop Grumman allowed me to develop a deep understanding of complex technical systems and hone my ability to troubleshoot and 
+        resolve issues in high-pressure environments. These experiences have prepared me well for any technical challenge that lies ahead.
+    - logo: https://res.cloudinary.com/dtpjd3pqt/image/upload/v1680476859/il_fullxfull.3502968094_ej34_hk9ves.webp
+      title: Satellite and Wideband Technician
+      company: Air Force National Guard
+      duration: April 2008 - April 2014
+      description: |
+        As a Satellite and Wideband technician for the Air Force National Guard, I had the opportunity to contribute to critical missions and hone my skills
+        in technical troubleshooting, configuration, and repair of mobile Defense support Program missile warning satellite ground systems. My work involved the
+        installation, configuration, operation, inspection, servicing, repairing, aligning, and overhauling of satellite systems that provided essential communication
+        and intelligence capabilities for our military forces.
+        <br />
+        <br />
+        In addition to maintaining and repairing satellite systems, I was also responsible for troubleshooting complex problems that arose in various platforms and
+        their associated operating systems. My expertise in evaluating identified failures and isolating the source of the problem allowed me to recommend changes
+        and provide solutions that ensured the continued success of our missions.
+        <br />
+        <br />
+        In the course of my duties, I also had the opportunity to perform Communication Security (COMSEC) duties, including the handling, safeguarding, use, and
+        emergency destruction of cryptographic materials. This included daily, weekly, and monthly management of COMSEC materials to ensure the highest level of security
+        for our mission-critical communications. Overall, my work as a Satellite and Wideband technician allowed me to develop a broad range of technical skills and
+        expertise that were essential to supporting the Air Force National Guard's mission.
+certifications:
+  enable: true
+  item:
+    - title: CompTIA Security+ ce Certification
+      image: https://images.credly.com/size/680x680/images/74790a75-8451-400a-8536-92d792c5184a/CompTIA_Security_2Bce.png
+      url: https://www.credly.com/badges/ee4ce89a-3151-4aba-8189-31531e65f5c3/public_url
+    - title: CompTIA Project+ Certification
+      image: https://images.credly.com/size/680x680/images/be6dfc3d-f8a1-4c18-8b16-751600ef61c8/CompTIA_Project_2B.png
+      url: https://www.credly.com/badges/1cde5943-aadf-4110-bbaf-8c93aa9cff1e/public_url
+    - title: AWS Certified Solutions Architect – Associate
+      image: https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png
+      url: https://www.credly.com/badges/83acf4e3-4c19-4220-9d25-00c79bd16d91/public_url
+    - title: Microsoft MTA
+      image: https://images.credly.com/size/680x680/images/7ccda93e-0825-4fd7-b8fd-9810be469711/MTA_Windows_Operating_System_Fundamentals-01.png
+      url: https://www.credly.com/badges/ce900f4e-a582-45ad-92fc-491f6558e5a3/public_url
+badges:
+  enable: true
+  item: 
+    - title: Program Committee Member - KubeCon + CloudNativeCon Europe 2023
+      image: https://images.credly.com/size/340x340/images/9eb0c21d-26bf-41ab-9ee5-7ac56aa01edb/image.png
+      url: https://www.credly.com/badges/c16cc8ef-3835-4493-a230-5abae8ab2fd5/public_url
+    - title: Inclusive Open Source Community
+      image: https://images.credly.com/size/340x340/images/82f20568-3ec3-4422-a2de-f06f5483f102/Training_Badges_Master_osbestpractices.png
+      url: https://www.credly.com/badges/5fa44ade-c26a-469d-8728-cbdd51f6e1e1/public_url
+education:
+  enable: true
+  item:
+    - title: BS Information Technology
+      year: 2019
+      academy: Western Governors University 
+      image: https://res.cloudinary.com/dtpjd3pqt/image/upload/v1680474938/Seal_of_WGU.svg_wshn57.png
+    - title: Masters of Business Administration (MBA)
+      year: 2021
+      academy: Western Governors University
+      image: https://res.cloudinary.com/dtpjd3pqt/image/upload/v1680474938/Seal_of_WGU.svg_wshn57.png
+
