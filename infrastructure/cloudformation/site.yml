@@ -92,3 +92,14 @@ Resources:
         ViewerCertificate:
           AcmCertificateArn: !Ref RjsadowSiteCert
           SslSupportMethod: sni-only
+
+  RjsadowSiteBudget:
+    Type: "AWS::Budgets::Budget"
+    Properties:
+      Budget:
+        BudgetLimit:
+          Amount: 20
+          Unit: USD
+        BudgetName: "RjsadowSiteBudget"
+        BudgetType: COST
+        TimeUnit: MONTHLY
