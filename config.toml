@@ -48,7 +48,7 @@ author = "Ricky Sadowski"
 
   [params.contact]
   enable = true
-  formAction = "" #contact form works with formspree.io
+  formAction = "https://formspree.io/f/meqwpgae" #contact form works with formspree.io
 
   [params.footer]
   email = "richard.j.sadowski@gmail.com"
