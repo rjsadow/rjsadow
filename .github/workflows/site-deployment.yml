@@ -23,7 +23,7 @@ jobs:
 
     - name: Deploy CloudFormation Stack
       run: |
-        aws cloudformation deploy --stack-name rjsadow-site-stack --template-file infrastructure/cloudformation/site.yml --parameter-overrides DomainName="rjsadow.com"
+        aws cloudformation deploy --stack-name rjsadow-site-stack --template-file infrastructure/aws/cloudformation/site.yml --parameter-overrides DomainName="rjsadow.com"
 
     - name: Install Hugo
       uses: peaceiris/actions-hugo@v2.6.0
