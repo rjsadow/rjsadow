@@ -36,3 +36,8 @@ jobs:
     - name: Deploy Hugo Site to S3 Bucket
       run: |
         aws s3 sync public/ s3://rjsadow.com/
+
+    - name: Create invalidation to update the site
+      run: |
+        CD_ID=$(aws cloudfront list-distributions --query 'DistributionList.Items[].{Id:Id}' --output text)
+        aws cloudfront create-invalidation --distribution-id $CD_ID --paths "/*"
