@@ -1,0 +1,81 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "DomainName": {
+      "type": "string",
+      "metadata": {
+        "description": "The domain name of the website."
+      }
+    }
+  },
+  "variables": {
+    "storageAccountName": "[toLower(parameters('DomainName'))]",
+    "storageAccountType": "Standard_LRS",
+    "storageAccountSkuName": "Standard_LRS",
+    "storageAccountKind": "StorageV2",
+    "staticWebsiteIndexDocument": "index.html",
+    "staticWebsiteErrorDocument404Path": "404.html",
+    "websiteEndpoint": "[concat('http://', variables('storageAccountName'), '.z22.web.core.windows.net/')]"
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2021-02-01",
+      "name": "[variables('storageAccountName')]",
+      "location": "[resourceGroup().location]",
+      "kind": "[variables('storageAccountKind')]",
+      "sku": {
+        "name": "[variables('storageAccountSkuName')]"
+      },
+      "properties": {
+        "supportsHttpsTrafficOnly": true,
+        "allowBlobPublicAccess": true
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/blobServices",
+      "apiVersion": "2021-02-01",
+      "name": "[concat(variables('storageAccountName'), '/default')]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]"
+      ],
+      "properties": {
+        "staticWebsite": {
+          "enabled": true,
+          "indexDocument": "[variables('staticWebsiteIndexDocument')]",
+          "errorDocument404Path": "[variables('staticWebsiteErrorDocument404Path')]"
+        }
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+      "apiVersion": "2021-02-01",
+      "name": "[concat(variables('storageAccountName'), '/default/$web')]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts/blobServices', variables('storageAccountName'), 'default')]"
+      ]
+    },
+    {
+      "type": "Microsoft.Network/dnsZones",
+      "apiVersion": "2020-05-01",
+      "name": "[concat(variables('storageAccountName'), '.', parameters('DomainName'), '.')]",
+      "location": "[resourceGroup().location]",
+      "properties": {}
+    },
+    {
+      "type": "Microsoft.Network/dnsZones/CNAMEs",
+      "apiVersion": "2020-05-01",
+      "name": "[concat(variables('storageAccountName'), '.', parameters('DomainName'), '.', 'www')]",
+      "location": "[resourceGroup().location]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Network/dnsZones', concat(variables('storageAccountName'), '.', parameters('DomainName'), '.'))]"
+      ],
+      "properties": {
+        "cnamerecord": {
+          "cname": "[variables('websiteEndpoint')]"
+        }
+      }
+    }
+  ]
+}

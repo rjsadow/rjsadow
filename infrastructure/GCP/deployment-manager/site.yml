@@ -1,0 +1,40 @@
+imports:
+- path: storage-bucket.jinja
+
+resources:
+- name: rjsadow-site-bucket
+  type: storage-bucket.jinja
+  properties:
+    bucketName: $(ref.rjsadow-site-bucket.url)
+    websiteConfiguration:
+      mainPageSuffix: index.html
+
+- name: rjsadow-dns-zone
+  type: gcp-types/dns-v1:projects.managedZones
+  properties:
+    zoneName: $(ref.rjsadow-site-dns.name)
+    dnsName: DOMAIN_NAME
+
+- name: rjsadow-site-dns-record
+  type: gcp-types/dns-v1:resourceRecordSets
+  properties:
+    managedZone: $(ref.rjsadow-site-dns.name)
+    name: DOMAIN_NAME.
+    rrdatas:
+    - $(ref.rjsadow-site-bucket.url)
+    ttl: 300
+    type: CNAME
+
+- name: rjsadow-site-budget
+  type: gcp-types/billingbudgets-v1:billingAccounts.budgets
+  properties:
+    parent: billingAccounts/BILLING_ACCOUNT_ID
+    budget:
+      displayName: RjsadowSiteBudget
+      amount:
+        specifiedAmount: 20
+        currencyCode: USD
+      thresholdRules:
+      - thresholdPercent: 100
+        spendBasis: CURRENT_SPEND
+        thresholdType: ABSOLUTE
