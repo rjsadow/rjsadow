@@ -51,7 +51,7 @@ author = "Ricky Sadowski"
   formAction = "https://formspree.io/f/meqwpgae" #contact form works with formspree.io
 
   [params.footer]
-  email = "richard.j.sadowski@gmail.com"
+  email = "hello@rjsadow.com"
   address = "Gainesville, VA"
   googlemaps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49754.96026627523!2d-77.65438406109405!3d38.793854672135346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b666229f11b9d9%3A0x4c416d4b32ca2c57!2sGainesville%2C%20VA!5e0!3m2!1sen!2sus!4v1680614345219!5m2!1sen!2sus"
   copyright = "{year} {author}"
