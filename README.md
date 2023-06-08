@@ -2,8 +2,6 @@
 
 <h3 align="center">A Platform Engineer and Open Source Enthusiast</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rjsadow&label=Profile%20views&color=0e75b6&style=flat" alt="rjsadow" /> </p>
-
 - 🌱 I’m currently learning **Cloud Native and Technologies** 
 - 📖 I'm currently reading <a href=https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654> **The Design Of Everyday Things** </a>
 - 👨‍💻 Learning by contributing in Open Source.
