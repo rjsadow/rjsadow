@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Ricky</h1>
 
-<h3 align="center">A Platform Engineer and Open Source Enthusiast</h3>
+<h3 align="center">A Senior Platform Engineer and Open Source Enthusiast @<a href="https://www.icr-team.com/">ICR-team.com</a></h3>
 
 - 🌱 I’m currently learning **Cloud Native and Technologies** 
 - 📖 I'm currently reading <a href=https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654> **The Design Of Everyday Things** </a>
