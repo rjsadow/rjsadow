@@ -2,7 +2,7 @@
 
 <h3 align="center">A Senior Platform Engineer and Open Source Enthusiast @<a href="https://www.icr-team.com/">ICR-team.com</a></h3>
 
-- 🌱 I’m currently learning **Cloud Native and Technologies** 
+- 🌱 I’m currently learning **Cloud Native and Cluster Technologies** 
 - 📖 I'm currently reading <a href=https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654> **The Design Of Everyday Things** </a>
 - 👨‍💻 Learning by contributing in Open Source.
 - 📫 How to reach me **hello@rjsadow.com**
