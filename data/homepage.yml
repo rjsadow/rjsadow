@@ -36,25 +36,53 @@ skill:
 experience:
   enable: true
   item:
+    - logo: https://icr-team.com/img/icr-inc.png
+      title: Sr. DevOps Engineer
+      company: iCR
+      duration: June 2023
+      description: |
+        As a Senior DevOps Engineer at iCR, I play a pivotal role in orchestrating and automating the deployment, scaling, and management 
+        of containerized applications using Kubernetes. My primary focus is on leveraging cloud-native technologies to ensure a seamless 
+        and efficient development-to-deployment pipeline.
+        <br />
+        <br />
+        In my role, I collaborate with software developers and IT professionals to create reliable and highly available systems. My expertise 
+        in Kubernetes allows me to set up, configure, and manage clusters, ensuring that applications are distributed effectively, and 
+        resources are utilized optimally. Additionally, I am responsible for monitoring the health of these clusters and implementing 
+        strategies to maintain zero-downtime deployments and achieve maximum system uptime.
+        <br />
+        <br />
+        To further enhance our infrastructure, I utilize various cloud-native tools and services that complement Kubernetes, ensuring a 
+        cohesive and integrated environment. This involves setting up monitoring tools, continuous integration/continuous deployment (CI/CD) 
+        pipelines, and ensuring that our infrastructure is both secure and scalable.
+        <br />
+        <br />
+        I also stay abreast of the latest trends and advancements in the DevOps and cloud-native space, ensuring that iCR benefits from 
+        the latest best practices and technologies. This proactive approach helps in continuously optimizing our workflows and maintaining 
+        a state-of-the-art infrastructure.
+        <br />
+        <br />
+        Engaging with other engineers, product managers, and stakeholders, I ensure the smooth operation of our services. My role demands 
+        strong collaboration and communication skills to troubleshoot and resolve intricate technical challenges efficiently.
     - logo: https://res.cloudinary.com/dtpjd3pqt/image/upload/r_30/v1680374260/AWS-logo-2_1_tgcc6v.jpg
       title: SysDevEng
       company: AWS
-      duration: October 2022
+      duration: October 2022 - June 2023
       description: |
-        As a System Development Engineer at Amazon Web Services, I provide design review, system assessment, and corrective actions for 
-        internal service teams. I then lead projects to help teams meet their operational objectives. My responsibilities also include 
-        designing, building, and maintaining complex distributed systems that power the AWS infrastructure. To accomplish this, I apply a 
+        As a System Development Engineer at Amazon Web Services, I provided design review, system assessment, and corrective actions for
+        internal service teams. I then led projects to help teams meet their operational objectives. My responsibilities also included
+        designing, building, and maintaining complex distributed systems that powered the AWS infrastructure. To accomplish this, I applied a
         strong understanding of software development best practices, including software design patterns, data structures, and algorithms.
         <br />
         <br />
-        I work closely with other engineers, product managers, and stakeholders to ensure that AWS services are reliable, scalable, and 
-        performant. This requires collaboration and effective communication skills to identify, troubleshoot, and resolve complex technical 
-        issues in a timely manner. In addition, I keep up to date with the latest technologies and industry trends to continuously improve 
+        I worked closely with other engineers, product managers, and stakeholders to ensure that AWS services were reliable, scalable, and
+        performant. This required collaboration and effective communication skills to identify, troubleshoot, and resolve complex technical
+        issues in a timely manner. In addition, I kept up to date with the latest technologies and industry trends to continuously improve
         our systems and processes.
         <br />
         <br />
-        Overall, my work as a System Development Engineer at Amazon Web Services involves ensuring the reliability and scalability of critical 
-        systems that power the cloud infrastructure.
+        Overall, my work as a System Development Engineer at Amazon Web Services involved ensuring the reliability and scalability of critical
+        systems that powered the cloud infrastructure.
     - logo: https://res.cloudinary.com/dtpjd3pqt/image/upload/v1680476421/zeta-associates-squarelogo-1536056437732_sfv4in.png
       title: DevOps Engineer 
       company: Zeta Associates
@@ -144,6 +172,9 @@ certifications:
 badges:
   enable: true
   item: 
+    - title: Program Committee Member - KubeCon + CloudNativeCon North America 2023
+      image: https://images.credly.com/size/110x110/images/befa3c72-6a48-46b2-92b5-b1145c494fb6/image.png
+      url: https://www.credly.com/earner/earned/share/9185c68f-c039-4303-a04b-bd262eec2963
     - title: Program Committee Member - KubeCon + CloudNativeCon Europe 2023
       image: https://images.credly.com/size/340x340/images/9eb0c21d-26bf-41ab-9ee5-7ac56aa01edb/image.png
       url: https://www.credly.com/badges/c16cc8ef-3835-4493-a230-5abae8ab2fd5/public_url
